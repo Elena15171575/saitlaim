@@ -1,0 +1,25 @@
+User-Agent: *
+Disallow: /page57690215.html
+Disallow: /cook
+Disallow: /page60281815.html
+Disallow: /sbor
+Disallow: /page133570106.html
+Disallow: /page133570366.html
+Disallow: /page133659446.html
+Disallow: /non
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: https://saitlaim.tilda.ws/sitemap.xml
+Sitemap: https://saitlaim.tilda.ws/sitemap-store.xml
+Sitemap: https://saitlaim.tilda.ws/sitemap-feeds.xml

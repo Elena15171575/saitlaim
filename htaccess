@@ -1,0 +1,40 @@
+ErrorDocument 403 /project8830521/page133659446.html
+ErrorDocument 404 /project8830521/page133659446.html
+
+DirectoryIndex page49315697.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project8830521/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^index$ page49315697.html [NC]
+RewriteRule ^index/$ page49315697.html [NC]
+
+RewriteRule ^blog$ page49525471.html [NC]
+RewriteRule ^blog/$ page49525471.html [NC]
+
+RewriteRule ^portfolio$ page50814187.html [NC]
+RewriteRule ^portfolio/$ page50814187.html [NC]
+
+RewriteRule ^creative-prod$ page51666015.html [NC]
+RewriteRule ^creative-prod/$ page51666015.html [NC]
+
+RewriteRule ^school$ page90581286.html [NC]
+RewriteRule ^school/$ page90581286.html [NC]
+
+RewriteRule ^cook$ page57690215.html [NC]
+RewriteRule ^cook/$ page57690215.html [NC]
+
+RewriteRule ^sbor$ page60281815.html [NC]
+RewriteRule ^sbor/$ page60281815.html [NC]
+
+RewriteRule ^non$ page133659446.html [NC]
+RewriteRule ^non/$ page133659446.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
